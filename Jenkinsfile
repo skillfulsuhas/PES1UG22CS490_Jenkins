@@ -4,10 +4,10 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    echo "Building PES1UG22CS490-1..."
-                }
-                sh 'g++ main/hello.cpp -o main/hello_exec'
-            }
+            //         echo "Building PES1UG22CS490-1..."
+            //     }
+            //     sh 'g++ main/hello.cpp -o main/hello_exec'
+            // }
         }
         stage('Test') {
             steps {
